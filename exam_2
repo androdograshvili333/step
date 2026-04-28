@@ -1,0 +1,19 @@
+
+full_name  = input(" შეიყვანე სრული სახელი და გვარი: ").title()
+domain = full_name[full_name.index(" ") + 1]
+print (f"Your initials are: {full_name[0]}. {domain}.")
+
+
+# secend
+word = input("შეიყვანე სიტყვა: ")
+word_reverse = word[::-1]
+print(word_reverse)
+ 
+
+
+
+
+proposal = " My favorite colors are red and white."
+new_proposal = proposal.replace(" red"," black")
+new_proposal_2 = new_proposal.replace("white", "yellow") 
+print(new_proposal_2)
